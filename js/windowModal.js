@@ -47,7 +47,7 @@ class divModal {
         div2.appendChild(button);
         button.innerHTML = "close";
         button.addEventListener("click", ()=> {
-            div.style.display = "none";
+            div.remove();
         })
     }
 }
